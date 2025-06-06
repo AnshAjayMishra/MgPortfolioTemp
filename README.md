@@ -54,3 +54,8 @@ A beautiful, responsive, and developer-friendly portfolio template built using [
 git clone https://github.com/YOUR_USERNAME/portfolio-template.git
 cd portfolio-template
 
+npm install
+# or
+yarn install
+
+
