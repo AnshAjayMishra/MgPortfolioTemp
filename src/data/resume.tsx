@@ -136,7 +136,7 @@ export const DATA = {
     },
     {
       type: "Source",
-      href: "https://github.com/AnshAjayMishra/mockvault",
+      href: "https://github.com/AnshAjayMishra/mockvault-n",
       icon: <Icons.github className="size-3" />,
     },
   ],
@@ -166,7 +166,7 @@ export const DATA = {
     },
     {
       type: "Source",
-      href: "https://github.com/AnshAjayMishra/portfolio",
+      href: "https://github.com/AnshAjayMishra/itsprivatebuddy",
       icon: <Icons.github className="size-3" />,
     },
   ],
