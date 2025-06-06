@@ -1,47 +1,56 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# 🌟 Portfolio Template
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+A beautiful, responsive, and developer-friendly portfolio template built using [Magic UI](https://magicui.design), [Next.js](https://nextjs.org), and [Tailwind CSS](https://tailwindcss.com). Designed to help developers showcase their work, experience, and online presence with style.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+![Portfolio Preview](./public/preview.png)
 
-# Features
+## 🚀 Features
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+- 🎨 **Magic UI components** for stunning animations and layout
+- ⚡ **Next.js** for blazing fast performance and SEO
+- 🧑‍💼 Project and Experience sections
+- 📝 Integrated **Blog** support with MDX
+- 💡 **Dark mode** support
+- 📱 Fully **responsive** design
+- 📧 Contact form (optional: integrates with Formspree, Resend, etc.)
+- 🧠 Easy configuration via a `config.ts` file
 
-# Getting Started Locally
+---
 
-1. Clone this repository to your local machine:
+## 🛠️ Tech Stack
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Components**: [Magic UI](https://magicui.design), [Shadcn/UI](https://ui.shadcn.com)
+- **Icons**: [Lucide Icons](https://lucide.dev)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/)
+- **Deployment**: [Vercel](https://vercel.com)
 
-2. Move to the cloned directory
+---
 
-   ```bash
-   cd portfolio
-   ```
+## 📂 Folder Structure
 
-3. Install dependencies:
+├── app/ # App Router setup
+│ ├── page.tsx # Home Page
+│ ├── blog/ # Blog pages (MDX)
+├── components/ # Reusable UI components
+├── data/ # Project, experience, and config files
+├── public/ # Static assets (images, favicon, preview)
+├── styles/ # Tailwind config and globals
+├── utils/ # Helper functions
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.json
+└── next.config.js
 
-   ```bash
-   pnpm install
-   ```
 
-4. Start the local Server:
+---
 
-   ```bash
-   pnpm dev
-   ```
+## ⚙️ Getting Started
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+### 1. Clone the Repository
 
-# License
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio-template.git
+cd portfolio-template
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
