@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Link, NotebookIcon } from "lucide-react";
+import { HomeIcon, Link, NotebookIcon, File} from "lucide-react";
 
 export const DATA = {
   name: "Ansh Ajay Mishra",
@@ -70,6 +70,13 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:ajayanshmishra00@gmail.com",
         icon: Icons.email,
+
+        navbar: false,
+      },
+       Resume: {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1_StLZXgSPh-kGW0GsnUPpP2uWA29U5U7/view?usp=drive_link",
+        
 
         navbar: false,
       },
@@ -169,6 +176,7 @@ export const DATA = {
       href: "https://github.com/AnshAjayMishra/itsprivatebuddy",
       icon: <Icons.github className="size-3" />,
     },
+   
   ],
   image: "/9.png",
   video: "", // Add a screen recording or walkthrough if you'd like
@@ -183,9 +191,15 @@ export const DATA = {
         "Developed a web application which store record of land.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      mlh: "#",
       links: [],
     }, 
   
   ],
+  Resume:[
+    {
+      title: "Resume",
+      url: "https://drive.google.com/file/d/1_StLZXgSPh-kGW0GsnUPpP2uWA29U5U7/view?usp=drive_link",
+    }
+  ]
 } as const;
